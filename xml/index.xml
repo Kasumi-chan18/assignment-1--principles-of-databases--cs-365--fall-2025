@@ -3,8 +3,10 @@
 <!DOCTYPE students SYSTEM "student.dtd">
 <students>
   <student id="1234567">
-    <name>Gordon Matthew Sumner</name>
-    <nickname>“Sting”</nickname>
+    <first>Gordon</first>
+    <middle>Matthew</middle>
+    <last>Sumner</last>
+    <preferred>“Sting”</preferred>
     <email>&lt;sting@thepolice.com&gt;</email>
     <phone>212.123.4567</phone>
     <year>first year</year>
@@ -13,13 +15,15 @@
     <minor>English</minor>
     <status>full-time</status>
     <advisor>Andy Summers</advisor>
-    <dob>08-25-1969</dob>
-    <admit>05-01-1973</admit>
+    <admit>08-25-1969</admit>
+    <grad>05-01-1973</grad>
   </student>
 
   <student id="4567890">
-    <name>Kim Thayil</name>
-    <nickname></nickname>
+    <first>Kim</first>
+    <middle></middle>
+    <last>Thayil</last>
+    <preferred></preferred>
     <email>&lt;kim@soundgarden.com&gt;</email>
     <phone>206.123.4567</phone>
     <year>second year</year>
@@ -28,13 +32,15 @@
     <minor>Music</minor>
     <status>full-time</status>
     <advisor>Chris Cornell</advisor>
-    <dob>08-25-1978</dob>
-    <admit>05-01-1982</admit>
+    <admit>08-25-1978</admit>
+    <grad>05-01-1982</grad>
   </student>
 
   <student id="8302438">
-    <name>Saul Hudson</name>
-    <nickname>“Slash”</nickname>
+    <first>Saul</first>
+    <middle></middle>
+    <last>Hudson</last>
+    <preferred>“Slash”</preferred>
     <email>&lt;slash@gnr.com&gt;</email>
     <phone>213.456.8392</phone>
     <year>fourth year</year>
@@ -43,13 +49,15 @@
     <minor>Criminal Justice</minor>
     <status>part-time</status>
     <advisor>Axl Rose</advisor>
-    <dob>08-25-1983</dob>
-    <admit>05-01-1987</admit>
+    <admit>08-25-1983</admit>
+    <grad>05-01-1987</grad>
   </student>
 
   <student id="2983928">
-    <name>Emily Kokal</name>
-    <nickname></nickname>
+    <first>Emily</first>
+    <middle></middle>
+    <last>Kokal</last>
+    <preferred></preferred>
     <email>&lt;emily@warpaint.com&gt;</email>
     <phone>213.123.7654</phone>
     <year>third year</year>
@@ -58,13 +66,15 @@
     <minor>Law</minor>
     <status>full-time</status>
     <advisor>Jenny Lee Lindberg</advisor>
-    <dob>08-25-1998</dob>
-    <admit>05-01-2002</admit>
+    <admit>08-25-1998</admit>
+    <grad>05-01-2002</grad>
   </student>
 
   <student id="7645726">
-    <name>Mike Inez</name>
-    <nickname></nickname>
+    <first>Mike</first>
+    <middle></middle>
+    <last>Inez</last>
+    <preferred></preferred>
     <email>&lt;mike@aic.com&gt;</email>
     <phone>213.444.3323</phone>
     <year>second year</year>
@@ -73,8 +83,8 @@
     <minor>Math</minor>
     <status>full-time</status>
     <advisor>Jerry Cantrell</advisor>
-    <dob>08-25-1984</dob>
-    <admit>05-01-1988</admit>
+    <admit>08-25-1984</admit>
+    <grad>05-01-1988</grad>
   </student>
 </students>
 
