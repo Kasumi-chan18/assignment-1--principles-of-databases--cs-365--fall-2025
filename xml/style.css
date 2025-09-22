@@ -21,8 +21,10 @@ student::before {
   color: #003366;
 }
 
-name,
-nickname,
+first,
+middle,
+last,
+preferred,
 email,
 phone,
 year,
@@ -31,20 +33,23 @@ major,
 minor,
 status,
 advisor,
-dob,
-admit {
+admit,
+grad {
   display: block;
   margin-left: 1em;
 }
 
-nickname::before { content: "Nickname: "; font-weight: bold; }
+first::before { content: "First name: "; font-weight: bold; }
+middle::before { content: "Middle name: "; font-weight: bold; }
+last::before { content: "Last name: "; font-weight: bold; }
+preferred::before { content: "Preferred name: "; font-weight: bold; }
 email::before { content: "Email: "; font-weight: bold; }
 phone::before { content: "Phone: "; font-weight: bold; }
 year::before { content: "Year: "; font-weight: bold; }
 gpa::before { content: "GPA: "; font-weight: bold; }
 major::before { content: "Major: "; font-weight: bold; }
 minor::before { content: "Minor: "; font-weight: bold; }
-status::before { content: "Status: "; font-weight: bold; }
+status::before { content: "Enrollment status: "; font-weight: bold; }
 advisor::before { content: "Advisor: "; font-weight: bold; }
-dob::before { content: "DOB: "; font-weight: bold; }
-admit::before { content: "Admit Date: "; font-weight: bold; }
+admit::before { content: "Date of initial enrollment: "; font-weight: bold; }
+grad::before { content: "Graduation date: "; font-weight: bold; }
