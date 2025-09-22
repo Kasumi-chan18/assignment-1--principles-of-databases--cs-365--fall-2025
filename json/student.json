@@ -2,8 +2,10 @@
   "students": [
     {
       "id": "1234567",
-      "name": "Gordon Matthew Sumner",
-      "nickname": "“Sting”",
+      "first": "Gordon",
+      "middle": "Matthew",
+      "last": "Sumner",
+      "preferred": "“Sting”",
       "email": "sting@thepolice.com",
       "phone": "212.123.4567",
       "year": "first year",
@@ -12,13 +14,15 @@
       "minor": "English",
       "status": "full-time",
       "advisor": "Andy Summers",
-      "dob": "08-25-1969",
-      "admit": "05-01-1973"
+      "admit": "08-25-1969",
+      "grad": "05-01-1973"
     },
     {
       "id": "4567890",
-      "name": "Kim Thayil",
-      "nickname": "",
+      "first": "Kim",
+      "middle": "",
+      "last": "Thayil",
+      "preferred": "",
       "email": "kim@soundgarden.com",
       "phone": "206.123.4567",
       "year": "second year",
@@ -27,13 +31,15 @@
       "minor": "Music",
       "status": "full-time",
       "advisor": "Chris Cornell",
-      "dob": "08-25-1978",
-      "admit": "05-01-1982"
+      "admit": "08-25-1978",
+      "grad": "05-01-1982"
     },
     {
       "id": "8302438",
-      "name": "Saul Hudson",
-      "nickname": "“Slash”",
+      "first": "Saul",
+      "middle": "",
+      "last": "Hudson",
+      "preferred": "“Slash”",
       "email": "slash@gnr.com",
       "phone": "213.456.8392",
       "year": "fourth year",
@@ -47,8 +53,10 @@
     },
     {
       "id": "2983928",
-      "name": "Emily Kokal",
-      "nickname": "",
+      "first": "Emily",
+      "middle": "",
+      "last": "Kokal",
+      "preferred": "",
       "email": "emily@warpaint.com",
       "phone": "213.123.7654",
       "year": "third year",
@@ -57,13 +65,15 @@
       "minor": "Law",
       "status": "full-time",
       "advisor": "Jenny Lee Lindberg",
-      "dob": "08-25-1998",
-      "admit": "05-01-2002"
+      "admit": "08-25-1998",
+      "grad": "05-01-2002"
     },
     {
       "id": "7645726",
-      "name": "Mike Inez",
-      "nickname": "",
+      "first": "Mike",
+      "middle": "",
+      "last": "Inez",
+      "preferred": "",
       "email": "mike@aic.com",
       "phone": "213.444.3323",
       "year": "second year",
@@ -72,8 +82,8 @@
       "minor": "Math",
       "status": "full-time",
       "advisor": "Jerry Cantrell",
-      "dob": "08-25-1984",
-      "admit": "05-01-1988"
+      "admit": "08-25-1984",
+      "grad": "05-01-1988"
     }
   ]
 }
