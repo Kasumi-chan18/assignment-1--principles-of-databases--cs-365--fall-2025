@@ -1,10 +1,12 @@
 <!ELEMENT students (student+)>
 
-<!ELEMENT student (name, nickname?, email, phone?, year?, major?, status?, advisor?, dob?, admit?)>
+<!ELEMENT student (first, middle?, last, preferred?, email, phone?, year, gpa, major, minor, status, advisor, admit, grad?)>
 <!ATTLIST student id CDATA #REQUIRED>
 
-<!ELEMENT name (#PCDATA)>
-<!ELEMENT nickname (#PCDATA)>
+<!ELEMENT first (#PCDATA)>
+<!ELEMENT middle (#PCDATA)>
+<!ELEMENT last (#PCDATA)>
+<!ELEMENT preferred (#PCDATA)>
 <!ELEMENT email (#PCDATA)>
 <!ELEMENT phone (#PCDATA)>
 <!ELEMENT year (#PCDATA)>
@@ -13,5 +15,5 @@
 <!ELEMENT minor (#PCDATA)>
 <!ELEMENT status (#PCDATA)>
 <!ELEMENT advisor (#PCDATA)>
-<!ELEMENT dob (#PCDATA)>
 <!ELEMENT admit (#PCDATA)>
+<!ELEMENT grad (#PCDATA)>
